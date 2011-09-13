@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>プリント対応ロールオーバー</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="jquery.printablehover.js"></script>
+<script type="text/javascript">
+$(function() {
+	$("body").printablehover({
+		hoverClass: "hover",
+		hoverSuffix: "_over",
+		speed: 150
+	});
+});
+</script>
+</head>
+<body>
+
+<p class="hover"><a href="#"><img src="btn1.gif" width="200" height="60" alt="" /></a></p>
+<p class="hover"><a href="#"><img src="btn2.gif" width="200" height="60" alt="" /></a></p>
+<p class="hover"><a href="#"><img src="btn3.gif" width="200" height="60" alt="" /></a></p>
+
+</body>
+</html>
